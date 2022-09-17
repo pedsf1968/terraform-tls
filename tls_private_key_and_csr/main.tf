@@ -1,3 +1,5 @@
+# Simple tls_private_key and tls_cert_request resources
+# change the filename with your own path
 # Before generate key with ssh-keygen -b 4096 -t RSA
 # with output as /home/terraform/data/tls/tls_private_key_and_csr/private_key.pem
 resource "local_file" "key_data" {
